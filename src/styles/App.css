@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    width: 800px;
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    margin-top: 20px;
+}
